@@ -1,7 +1,3 @@
-from itertools import count
-from posixpath import split
-
-
 def read_file_content(filename):
     count_words = {}
     with open(filename, "r") as openfile:
